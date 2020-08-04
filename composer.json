@@ -18,9 +18,9 @@
     },
     "extra":{
         "laravel":{
-            "providers":{
+            "providers":[
                 "Sumdys\\HJunitLaravel\\Providers\\HJunitServiceProvider"
-            }
+            ]
         }
     }
 }
