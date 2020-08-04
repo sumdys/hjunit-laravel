@@ -36,7 +36,7 @@ class HJunitServiceProvider extends ServiceProvider
     }
 
     /**
-     * Get the Telescope route group configuration array.
+     * 设置路由
      *
      * @return array
      */
