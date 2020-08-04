@@ -1,0 +1,26 @@
+{
+    "name": "sumdys\/hjunit-laravel",
+    "description": "A simplified version of the laravel framework unit test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sumdys",
+            "email": "heshe8769420@163.com"
+        }
+    ],
+    "require": {
+        "php":"^7.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sumdys\\HJunitLaravel\\": "src"
+        }
+    },
+    "extra":{
+        "laravel":{
+            "providers":{
+                "Sumdys\\HJunitLaravel\\Providers\\HJunitServiceProvider"
+            }
+        }
+    }
+}
